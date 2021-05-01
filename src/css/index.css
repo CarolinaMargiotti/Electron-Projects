@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root{
+    --textColor:aliceblue;
+    --mainColor:#606468;
+    --accentColor:#d44179;
+    --accentColorSecondary:#BB279D;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    color:var(--textColor);
+    background-color: rgb(50, 54, 74);
+}
+
+#newPassword{
+    color:var(--textColor);
+    width: 50;
+}
+.form-control,.form-control:focus{
+    color:var(--textColor);
+    background-color: var(--mainColor);
+    border-style: none;
+}
+
+.form-control:focus{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--accentColor);
+}
+
+.btn{
+    color:var(--textColor);
+    background-color: var(--accentColor);
+    border-color: var(--accentColor);
+}
+
+.btn:hover,.btn:visited,.btn:active,.btn:focus{
+    background-color: var(--accentColorSecondary);
+    border-color: var(--accentColorSecondary);
+}
+
+.btn:focus{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--accentColor);
+}
