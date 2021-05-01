@@ -1,5 +1,5 @@
 # Electront-test
-Learning Electron
+Some projects of me learning how to use Electron.
 
 ### Branch Main
 basic structure of an Electron project, for easy reutility.
