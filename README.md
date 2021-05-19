@@ -7,3 +7,6 @@ basic structure of an Electron project, for easy reutility.
 
 ### Branch PasswordGenerator
 A small project with Electron where I developed a program that generates passwords based in a given length.
+
+### Branch TextEditor
+A project with Electron to develop a text editor.
